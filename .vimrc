@@ -9,4 +9,5 @@ set expandtab
 match ErrorMsg '\s\+$'
 
 set t_Co=256
-colorscheme delek
+colorscheme murphy
+
