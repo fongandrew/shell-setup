@@ -1,5 +1,9 @@
 source ~/.bash_prompt
- 
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 if which rbenv > /dev/null;
   then eval "$(rbenv init -)";
 fi
