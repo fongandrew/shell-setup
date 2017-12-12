@@ -6,6 +6,7 @@
 [alias]
   co = checkout
   st = status
+  br = branch
   ds = diff --staged
   wd = diff --word-diff
   rc = rebase --continue
