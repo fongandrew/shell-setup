@@ -19,3 +19,7 @@ do
     rm -f "${HOME}/${target}"
     ln -s "${DIR}/${target}" "${HOME}/${target}"
 done
+
+# Install Pathogen for Vim
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+  curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
