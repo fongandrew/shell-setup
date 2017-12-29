@@ -48,12 +48,14 @@ if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 
-if which rbenv > /dev/null;
-  then eval "$(rbenv init -)";
-fi
-export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+if which rbenv > /dev/null;
+  then eval "$(rbenv init -)";
+  rbenv shell 2.4.3;
+fi
  
 export NPM_PACKAGES="${HOME}/.npm-packages"
 export YARN_PACKAGES="${HOME}/.yarn-packages"
