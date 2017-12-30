@@ -1,5 +1,5 @@
-macOS Shell Config
-==================
+macOS / Ubuntu / WSL / *nix Shell Config
+========================================
 
 Minimal dev setup. Copy everything into home
 directory. Run `setup.sh`.
