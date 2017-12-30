@@ -12,6 +12,8 @@ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 cd ~/.rbenv && src/configure && make -C src
 mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+
+export PATH="$HOME/.rbenv/bin:$PATH"
 rbenv install 2.4.3
 eval "$(rbenv init -)"
 rbenv shell 2.4.3
