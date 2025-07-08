@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt install build-essential libssl-dev libreadline-dev zlib1g-dev python3 python-minimal python-pip python3-pip
+sudo apt install build-essential libssl-dev libreadline-dev zlib1g-dev python3 python3-pip
 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 
